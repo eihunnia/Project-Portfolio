@@ -1,12 +1,11 @@
 #Top page
 title: My Portfolio
+description: Third year project showcase
 url: ""        
 baseurl: "" 
 
 #Pixyll theme
 remote_theme: johno/pixyll
-
-description: Third year project showcase
 
 # Build settings
 markdown: kramdown
