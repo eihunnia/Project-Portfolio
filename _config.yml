@@ -1,16 +1,21 @@
 #Top page
 title: My Portfolio
 description: Third year project showcase
-url: ""        
-baseurl: "" 
+#url: ""        
+#baseurl: "" 
 
-#Pixyll theme
-remote_theme: poole/hyde
+# User settings
+username: Emmanuel Ihunnia
+user_description: Test phase of my portfolio describing my third year project
+user_title: Software Developer
+email: emmanuelihunnia@outlook.com
+twitter_username:
+github_username:
+gplus_username:
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
+# Google-analytics
+google-analytics:
+ id: ""
 
-# Optional Pixyll customisations
-header_text: "Welcome to My Project Portfolio"
-header_image: ""     # You can add a header image later
+exclude: ['package.json', 'src', 'node_modules']
+
