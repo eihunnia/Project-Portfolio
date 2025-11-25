@@ -5,7 +5,7 @@ url: ""
 baseurl: "" 
 
 #Pixyll theme
-remote_theme: "johno/pixyll"
+remote_theme: johno/pixyll
 
 # Build settings
 markdown: kramdown
