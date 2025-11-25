@@ -1,3 +1,17 @@
-remote_theme: johno/pixyll
+#Top page
 title: Emmanuel Ihunnia 
-desription: Third year project showcase
+url: ""        
+baseurl: "" 
+
+#Pixyll theme
+remote_theme: johno/pixyll
+
+description: Third year project showcase
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Optional Pixyll customisations
+header_text: "Welcome to My Project Portfolio"
+header_image: ""     # You can add a header image later
