@@ -7,10 +7,6 @@ baseurl: ""
 #Pixyll theme
 remote_theme: poole/hyde
 
-#plugins
-plugins: 
-  - jekyll-remote-theme
-
 # Build settings
 markdown: kramdown
 highlighter: rouge
