@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.3em;
+        }
+        header p {
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            border-left: 6px solid #222;
+            padding-left: 10px;
+        }
+        .screenshot {
+            width: 100%;
+            border-radius: 8px;
+            margin: 15px 0;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+        }
+        pre {
+            background: #222;
+            color: #ddd;
+            padding: 15px;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background: #222;
+            color: #fff;
+        }
+        a {
+            color: #007acc;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My 3rd Year Project</h1>
+    <p>Computer Science Student | Game Development | Systems Design</p>
+</header>
+
+<div class="container">
+
+    <h2>Overview</h2>
+    <p>
+        This project demonstrates my work in <strong>[Insert short description: AI, gameplay systems, physics simulation, networking, etc.]</strong>.
+        It was created as part of my third-year Computer Science degree. The goal of the project was to
+        <strong>[state the technical goal]</strong> and apply industry-relevant development practices.
+    </p>
+
+    <h2>Demo Screenshots / GIFs</h2>
+    <p>Add images or GIFs of your project running. Upload them to your repo and reference them like this:</p>
+    
+    <img src="images/demo1.gif" alt="Demo 1" class="screenshot">
+    <img src="images/demo2.png" alt="Demo 2" class="screenshot">
+
+    <p>(Replace file names with yours.)</p>
+
+    <h2>Key Features</h2>
+    <ul>
+        <li>Feature 1 – e.g. Real-time pathfinding using A*</li>
+        <li>Feature 2 – e.g. Multithreaded system for simulation</li>
+        <li>Feature 3 – e.g. Custom engine tools / UI</li>
+        <li>Feature 4 – e.g. Visualisation or gameplay mechanics</li>
+    </ul>
+
+    <h2>Sample Code Snippet</h2>
+    <pre><code>
+// Example: A* Node Expansion (replace with your own snippet)
+public void ExpandNode(Node node) {
+    foreach (var neighbour in node.neighbours) {
+        var cost = node.cost + Distance(node, neighbour);
+        if (cost < neighbour.cost) {
+            neighbour.cost = cost;
+            neighbour.parent = node;
+        }
+    }
+}
+    </code></pre>
+
+    <h2>GitHub Repository</h2>
+    <p>
+        View full source code here:
+        <a href="https://github.com/yourusername/yourrepo" target="_blank">
+            https://github.com/yourusername/yourrepo
+        </a>
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+        Email: <a href="mailto:your.email@example.com">your.email@example.com</a><br>
+        LinkedIn: <a href="#">Your LinkedIn Profile</a>
+    </p>
+
+</div>
+
+<footer>
+    © 2025 Your Name — Portfolio Project
+</footer>
+
+</body>
+</html>
