@@ -6,7 +6,8 @@ baseurl: "/Project-Portfolio"                   #baseurl: ""
 
 # User settings
 username: Emmanuel Ihunnia
-user_description: Test phase of my portfolio describing my third year project
+user_description: Throughout my degree in Computer Science, I have gained experience coding in several languages including C, Java, Python and others which have provided me a wide base to develop software in different environments. 
+I have developed a particular proficiency in Python especially during my third-year project as the entire game was designed using this language.
 user_title: Software Developer
 email: emmanuelihunnia@outlook.com
 twitter_username:
