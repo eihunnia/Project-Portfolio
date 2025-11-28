@@ -1,8 +1,8 @@
 #Top page
 title: My Portfolio
 description: Third year project showcase
-#url: ""        
-#baseurl: "" 
+url: "https://eihunnia.github.io"               #url: "" 
+baseurl: "/Project-Portfolio"                   #baseurl: "" 
 
 # User settings
 username: Emmanuel Ihunnia
@@ -19,3 +19,5 @@ google-analytics:
 
 exclude: ['package.json', 'src', 'node_modules']
 
+url: "https://USERNAME.github.io"
+baseurl: "/Project-Portfolio"
