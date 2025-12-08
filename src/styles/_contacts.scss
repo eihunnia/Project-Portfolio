@@ -1,10 +1,14 @@
 #contacts {
   width: 90%;
   margin: 0 auto;
-  max-width: 480px;
+  max-width: 960px;
   @media only screen and (min-width: $cut) {
     width: 80%;
   }
+}
+
+.tech {
+  margin: 10px;
 }
 
 .contacts {
@@ -15,9 +19,8 @@
   flex-wrap: wrap;
   justify-content: center;
   p {
-  font-size: 16px;
+    font-size: 16px;
   }
-
   @media only screen and (min-width: $cut) {
     flex-wrap: nowrap;
     font-size: 75px;
@@ -28,12 +31,3 @@
   text-align: center;
   margin: 5px auto;
 }
-
-
-
-
-
-
-
-
-
